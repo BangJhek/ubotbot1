@@ -208,3 +208,5 @@ LASTMSG = {}
 CMD_HELP = {}
 ISAFK = False
 AFKREASON = None
+
+TELEGRAPH_SHORT_NAME = os.environ.get("TELEGRAPHSHORTNAME", None)
