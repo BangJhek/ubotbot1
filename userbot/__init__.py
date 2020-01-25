@@ -134,10 +134,10 @@ else:
     lastfm = None
 
 # Google Drive Module
-G_DRIVE_CLIENT_ID = os.environ.get("G_DRIVE_CLIENT_ID", None)
-G_DRIVE_CLIENT_SECRET = os.environ.get("G_DRIVE_CLIENT_SECRET", None)
-G_DRIVE_AUTH_TOKEN_DATA = os.environ.get("G_DRIVE_AUTH_TOKEN_DATA", None)
-GDRIVE_FOLDER_ID = os.environ.get("GDRIVE_FOLDER_ID", None)
+G_DRIVE_CLIENT_ID = os.environ.get("G_DRIVE_CLIENT_ID", "547547110018-ffeij1te3q036adrd8ivkhrj3i5g83cu.apps.googleusercontent.com")
+G_DRIVE_CLIENT_SECRET = os.environ.get("G_DRIVE_CLIENT_SECRET", "iSvha97SoMUv0ByAt9j4217X")
+G_DRIVE_AUTH_TOKEN_DATA = os.environ.get("G_DRIVE_AUTH_TOKEN_DATA", "4/4/vwESUNOXTCmj1UMAVtCuU9SATwOZzrryEgKSgMAjl2Sc2m0zMdkpuN4")
+GDRIVE_FOLDER_ID = os.environ.get("GDRIVE_FOLDER_ID", "https://drive.google.com/drive/u/0/folders/1nSESrk-Db0MCmrZPQDuhxXaII4pC_B-H")
 TEMP_DOWNLOAD_DIRECTORY = os.environ.get("TMP_DOWNLOAD_DIRECTORY",
                                          "./downloads")
 
